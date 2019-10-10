@@ -1,0 +1,323 @@
+<link href="https://dl.dropbox.com/u/2202451/css/justinpurnell.css" type="text/css"  rel="stylesheet"/>
+body, html {
+	text-shadow: 1px 1px 1px white;
+	font-family: system-font, -webkit-system-font, -apple-system, -apple-system-font,
+	".SFNSDisplay-Regular", "Gotham Book", "Helvetica Nueue", Helvetica, Verdana, Arial, sans-serif;
+	background: #f2f2f2;
+	padding: 0px;
+	border: 0px;
+	font-size: .95em;
+	line-height: 1.1em;
+	color: #7c7c7c;
+}
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url('GBook.eot');
+	src: local("Gotham Book"), 
+	local("Gotham-Book"), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBook.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBook.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBook.ttf") format('truetype'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBook.svg#GothamBook") format('svg');
+	font-weight: normal
+}
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url('GBold.eot');
+	src: local("Gotham Bold"), 
+	local("Gotham-Bold"), 
+	url("https://dl.dropbox.com/u/2202451/GBold.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBold.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBold.ttf") format('truetype'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBold.svg#GothamBook") format('svg');
+	font-weight: bold
+}
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url('GBookItalic.eot');
+	src: local("Gotham Book Italic"), 
+	local("Gotham-Book-Italic"), 
+	url("https://dl.dropbox.com/u/2202451/GBookItalic.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBookItalic.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBookItalic.ttf") format('truetype'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBookItalic.svg#GothamBook-Italic") format('svg');
+	font-style: italic
+}
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url('GBoldItalic.eot');
+	src: local("Gotham Bold Italic"), 
+	local("Gotham-Bold-Italic"), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBoldItalic.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBoldItalic.woff") format('woff'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBoldItalic.ttf") format('truetype'), 
+	url("https://dl.dropbox.com/u/2202451/fonts/GBoldItalic.svg#GothamBold-Italic") format('svg');
+	font-style: italic;
+	font-weight: bold;
+}
+
+pre {
+	font-size: 0.8px;
+}
+a {
+	color: #ff6633;
+	text-decoration: none;
+}
+a:hover {
+	text-shadow: 1px 1px 1px white;
+	color: #ff3300;
+	background: none;
+}
+h1 {
+	line-height: 0.75em;
+	letter-spacing: -3px;
+	text-align: right;
+	font-size: 5em;
+	text-shadow: 1px 1px 1px white;
+	color: #7c7c7c;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+h2 {
+	color: #666;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+h3 {
+	color: #666;
+	font-weight: normal !important;
+	margin-bottom: 0px;
+}
+h4 {
+	color: #666;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+h5 {
+	margin-top: 20%;
+	line-height: 1em;
+	margin-right: 15%;
+	margin-left: 10%;
+	letter-spacing: -3px;
+	text-align: right;
+	font-size: 6.75em;
+	text-shadow: 1px 0px 1px white;
+	color: #666666;
+	font-weight: normal;
+}
+h6 {
+	margin-top: -7em;
+	margin-right: 15%;
+	margin-left: 10%;
+	widows: 0;
+	text-align: right;
+	font-size: 1.3em;
+	text-shadow: 1px 1px 1px white;
+	color: #7c7c7c;
+	font-weight: normal;
+}
+img {
+	background: #fff !important;
+	border: 1px solid #d8d8d8;
+	padding: 7px;
+	margin: 0px;
+}
+	
+img a {
+	border-color: #d8d8d8;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px !important;
+	background: #fff !important;
+	margin: 0px;
+}
+	
+input {
+	border: 1px solid #999;
+}
+	
+.photo a, .disqus a {
+	background: #fff !important;
+}
+	
+.header {
+	border-bottom-style: solid;
+	border-bottom-color: #bfbfbf;
+	border-width: 1px;
+	background-repeat: no-repeat;
+	text-align: right;
+	margin-bottom: 20px;
+}
+	
+.status {
+	font-style: normal;
+	margin-right: 12px;
+	text-align: right;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px white;
+	color: #7c7c7c;
+	font-size: 12px;
+	position: relative;
+	float: right;
+	margin-bottom: 10px;
+}
+	
+.wrapper {
+	width: 520px;
+	margin: auto;
+}
+	
+.main {
+	margin-bottom: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 50px;
+}
+	
+.datetime {
+	text-shadow: 0px 0px;
+	border-right-style: solid;
+	border-right-color: #999999;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #666;
+	position: relative;
+	float: left;
+	margin-left: -190px;
+	padding-right: 20px;
+	border-right: 1px;
+	width: 170px;
+	text-align: right;
+	clear: both;
+}
+	
+.navleft {
+	font-size: 1em;
+	position: relative;
+	float: left;
+}
+	
+.navright {
+	font-size: 1em;
+	position: relative;
+	float: right;
+}
+	
+.navcenter {
+	font-size: 1em;
+	text-align: center;
+	width: 640px;
+}
+	
+.datetime a {
+	color: #888;
+}
+	
+.post {
+	padding-bottom: 30px;
+}
+	
+.short_quote {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: #666;
+}
+
+.medium_quote {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: #666;
+}
+
+.long_quote {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: #666;
+}
+
+a .notes {
+	text-decoration: none !important;
+	background: none;
+}
+
+.notes a {
+	text-decoration: none !important;
+	background: none;
+}
+
+img .notes {
+	margin: 0px;
+	padding: 3px;
+	border: 1px solid #999;
+}
+
+.notes img {
+	margin: 0px;
+	padding: 3px;
+	border: 1px solid #999;
+}
+
+object .notes {
+	margin: 0px;
+	padding: 5px;
+	border: 1px solid #999;
+}
+
+.video a {
+	text-decoration: none !important;
+	background: #fff !important;
+}
+	
+.twitter-follow-button {
+	color: #f2f2f2
+	data-text-color: #f2f2f2
+	data-link-color: #ff6633
+	data-show-count: false
+	text-align:	right
+}
+
+.disqus {
+	font-family: "Gotham Book", "Helvetica Nueue", Helvetica, Verdana, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.5em !important;
+	color: #333 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	body, html {
+		background-color: #333333;
+		color: #333333;
+	}
+	a {
+		color: #ff6633;
+		text-shadow: 1px 0px 1px #444444;
+		text-decoration: none;
+	}
+	a:hover {
+		text-shadow: 1px 0px 1px #222222;
+		color: #ff3300;
+		background: none;
+	}
+	h5 {
+		margin-top: 20%;
+		line-height: 1em;
+		margin-right: 15%;
+		margin-left: 10%;
+		letter-spacing: -3px;
+		text-align: right;
+		font-size: 6.75em;
+		text-shadow: 1px 0px 1px #222222;
+		color: #555555;
+		font-weight: normal;
+	}
+	img {
+		filter: grayscale(30%);
+	}
+}
